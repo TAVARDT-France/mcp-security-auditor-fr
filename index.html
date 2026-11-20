@@ -347,12 +347,6 @@
       text-decoration: none;
     }
     footer a:hover { text-decoration: underline; }
-    .privacy-notice {
-      max-width: 700px;
-      margin: 0.75rem auto;
-      font-size: 0.8rem;
-      color: #64748b;
-    }
   </style>
 </head>
 <body>
@@ -364,7 +358,7 @@
     </div>
     <div class="nav-links">
       <a href="https://ag.tavardt.com/fr/" target="_blank" rel="noopener">Portail Principal</a>
-      <a href="https://tools.tavardt.com/fr/" target="_blank" rel="noopener">Portail d'Outils TAVARDT</a>
+      <a href="https://tools.tavardt.com/fr/" target="_blank" rel="noopener">Portail d'Outils</a>
       <a href="https://ag.tavardt.com/fr/contact/" target="_blank" rel="noopener">Contact Technique</a>
     </div>
   </header>
@@ -444,10 +438,7 @@
   </div>
 
   <footer>
-    <div>TAVARDT France &copy; 2026. Tous droits réservés.</div>
-    <div class="privacy-notice">
-      Sécurité Intégrée : Le traitement de cet outil s'effectue à 100% dans le moteur JavaScript de votre navigateur. Aucun identifiant ou fichier de configuration n'est transmis vers des serveurs externes.
-    </div>
+    <div>&copy; 2026 TAVARDT France. Tous droits réservés.</div>
   </footer>
 
   <script>
@@ -679,7 +670,7 @@
           // 6. SSRF / Private Metadata Endpoints
           args.forEach(function(arg) {
             const aStr = String(arg).toLowerCase();
-            if (aStr.includes("metadata.cloud-provider.internal") || aStr.includes("metadata.google.internal") || aStr.includes("internal-metadata") || aStr.includes("localhost") || aStr.includes("127.0.0.1")) {
+            if (aStr.includes("metadata.cloud-provider.internal") || aStr.includes("metadata.google.internal") || aStr.includes("internal-metadata") || aStr.includes("localhost") || aStr.includes("internal-host")) {
               findings.push({
                 server: sKey,
                 severity: "high",
