@@ -78,7 +78,7 @@ jobs:
 ## Portails TAVARDT
 
 - **Portail Principal** : [https://ag.tavardt.com/fr/](https://ag.tavardt.com/fr/)
-- **Portail d'Outils TAVARDT** : [https://tools.tavardt.com/fr/](https://tools.tavardt.com/fr/)
+- **Portail d'Outils**: [https://tools.tavardt.com/fr/](https://tools.tavardt.com/fr/)
 - **Contact Technique** : [https://ag.tavardt.com/fr/contact/](https://ag.tavardt.com/fr/contact/)
 
 ---
