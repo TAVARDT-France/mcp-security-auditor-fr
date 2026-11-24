@@ -71,7 +71,6 @@ jobs:
 
 ## Cadre de Conformité
 
-- **Juridiction** : France
 - **Référentiel Technique** : Directives de Moindre Privilège et Référentiels ANSSI pour l'IA
 - **Organisation Responsable** : [TAVARDT-France](https://github.com/TAVARDT-France)
 
@@ -85,3 +84,7 @@ jobs:
 
 ### Licence
 Distribué sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus d'informations.
+
+***
+
+© 2026 TAVARDT. Tous droits réservés.
