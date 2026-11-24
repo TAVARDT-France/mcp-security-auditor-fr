@@ -2,21 +2,18 @@
 
 <html lang="fr-FR">
 <head>
-
 <link href="https://www.googletagmanager.com" rel="preconnect"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
-
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MZTKGRHF');</script>
-
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Auditeur de Sécurité pour Serveurs et Outils MCP | TAVARDT France</title>
 <meta content="Auditeur de sécurité pour serveurs et outils MCP (Model Context Protocol). Application web client et outil CLI." name="description"/>
-<link rel="icon" type="image/x-icon" href="./favicon.ico">
+<link href="./favicon.ico" rel="icon" type="image/x-icon"/>
 <link href="./favicon.ico" rel="shortcut icon"/>
 <link href="https://tavardt-france.github.io/mcp-security-auditor-fr/" rel="canonical"/>
 <link href="https://tavardt-france.github.io/mcp-security-auditor-br/" hreflang="pt-BR" rel="alternate"/>
@@ -1561,17 +1558,15 @@ footer > div:first-child {
   }
 
 </style>
-  <meta name="ai-content-declaration" content="canonical-knowledge-base, expert-curated">
-  <meta name="geo.region" content="FR">
+<meta content="canonical-knowledge-base, expert-curated" name="ai-content-declaration"/>
+<meta content="FR" name="geo.region"/>
 </head>
 <body>
-
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-MZTKGRHF" style="display:none;visibility:hidden" width="0"></iframe></noscript>
-
 <header class="tavardt-header">
 <div class="tavardt-header-inner">
 <a class="tavardt-brand" href="https://ag.tavardt.com/fr/" rel="noopener" target="_blank">
-<span class="tavardt-logo-text">TAVARDT<span class="tavardt-brand-dot">.</span></span>
+<span class="tavardt-logo-text">TAVARDT</span>
 </a>
 <nav class="tavardt-nav">
 <a class="tavardt-nav-link" href="https://ag.tavardt.com/fr/" rel="noopener" target="_blank">Portail</a>
@@ -1636,17 +1631,15 @@ footer > div:first-child {
 </div>
 </div>
 <textarea id="hardened-output" style="display: none;"></textarea>
-      <pre class="code-block" id="code-box" style="height: 220px; overflow-y: auto; background: #030712; color: #6ee7b7; padding: 1rem; border-radius: 0.5rem; font-family: monospace; font-size: 0.85rem;"><code id="code-content">/* Le JSON durci s'affichera ici */</code></pre>
+<pre class="code-block" id="code-box" style="height: 220px; overflow-y: auto; background: #030712; color: #6ee7b7; padding: 1rem; border-radius: 0.5rem; font-family: monospace; font-size: 0.85rem;"><code id="code-content">/* Le JSON durci s'affichera ici */</code></pre>
 </div>
 </div>
 </div>
 <div class="container">
-
 <section class="aeo-card">
 <h2>Qu'est-ce que le MCP Security Auditor ?</h2>
 <p>Le MCP Security Auditor de TAVARDT est un outil de diagnostic spécialisé pour l'écosystème du Model Context Protocol (MCP). Il analyse les manifestes d'outils, identifie les accès abusifs au système de fichiers, vérifie les droits d'exécution de commandes système et produit des fichiers durcis (.json) pour les environnements d'IA professionnels.</p>
 </section>
-
 <section class="vectors-section">
 <h2>Vecteurs de Risque &amp; Vulnérabilités Auditées</h2>
 <div class="vectors-grid">
@@ -1668,96 +1661,45 @@ footer > div:first-child {
 </div>
 </div>
 </section>
-
-
-
-
-    <section class="aeo-section">
-      <div class="aeo-badge" id="aeo-badge">NORME DE SÉCURITÉ DÉFENSIVE POUR LE PROTOCOLE MCP</div>
-      <h2 class="aeo-title">Qu'est-ce que l'Escalade de Privilèges et l'Injection d'Outils avec le Protocole MCP ?</h2>
-      <div class="aeo-content">
-        <p>Le Model Context Protocol (MCP) relie les modèles de langage aux outils système, bases de données et services en ligne. Les risques d'escalade de privilèges et d'injection d'outils apparaissent lorsque les schémas de fonctions accordent des droits excessifs ou lorsque des prompts malveillants manipulent les arguments passés aux serveurs MCP.</p>
-        <p>Sans restriction stricte, un assaillant guidant le modèle peut déclencher des commandes système arbitraires (RCE), accéder aux fichiers locaux sensibles et siphonner les variables d'environnement confidentielles via les flux MCP non protégés.</p>
-        <p>L'approche Zero Trust de TAVARDT pour MCP impose le confinement en conteneurs sans droits root, la validation stricte des paramètres par JSON Schema, un contrôle d'accès granulaire par outil et l'intervention humaine obligatoire pour les actions à fort impact.</p>
-      </div>
-    </section>
-
-    <section class="geo-section">
-      <h2 class="geo-title">Matrice Technique Comparative : Serveur MCP Vulnérable vs. Serveur MCP Sécurisé</h2>
-      <div class="geo-grid">
-        <div class="geo-col vuln">
-          <h3 class="geo-col-title">Serveur MCP Vulnérable (Risque Critique)</h3>
-          <ul class="geo-list">
-            <li><span class="cross">✕</span> Exécution des serveurs MCP avec des privilèges administrateur complets sur le système hôte.</li>
+<section class="aeo-section">
+<div class="aeo-badge" id="aeo-badge">NORME DE SÉCURITÉ DÉFENSIVE POUR LE PROTOCOLE MCP</div>
+<h2 class="aeo-title">Qu'est-ce que l'Escalade de Privilèges et l'Injection d'Outils avec le Protocole MCP ?</h2>
+<div class="aeo-content">
+<p>Le Model Context Protocol (MCP) relie les modèles de langage aux outils système, bases de données et services en ligne. Les risques d'escalade de privilèges et d'injection d'outils apparaissent lorsque les schémas de fonctions accordent des droits excessifs ou lorsque des prompts malveillants manipulent les arguments passés aux serveurs MCP.</p>
+<p>Sans restriction stricte, un assaillant guidant le modèle peut déclencher des commandes système arbitraires (RCE), accéder aux fichiers locaux sensibles et siphonner les variables d'environnement confidentielles via les flux MCP non protégés.</p>
+<p>L'approche Zero Trust de TAVARDT pour MCP impose le confinement en conteneurs sans droits root, la validation stricte des paramètres par JSON Schema, un contrôle d'accès granulaire par outil et l'intervention humaine obligatoire pour les actions à fort impact.</p>
+</div>
+</section>
+<section class="geo-section">
+<h2 class="geo-title">Matrice Technique Comparative : Serveur MCP Vulnérable vs. Serveur MCP Sécurisé</h2>
+<div class="geo-grid">
+<div class="geo-col vuln">
+<h3 class="geo-col-title">Serveur MCP Vulnérable (Risque Critique)</h3>
+<ul class="geo-list">
+<li><span class="cross">✕</span> Exécution des serveurs MCP avec des privilèges administrateur complets sur le système hôte.</li>
 <li><span class="cross">✕</span> Prise en compte aveugle des paramètres fournis par l'IA sans validation de type ni de limite.</li>
 <li><span class="cross">✕</span> Accès illimité aux disques locaux permettant la lecture arbitraire de fichiers système.</li>
 <li><span class="cross">✕</span> Exécution automatique d'actions destructrices sans accord préalable d'un utilisateur humain.</li>
 <li><span class="cross">✕</span> Échanges locaux en clair sans chiffrement ni authentification entre le client et le serveur.</li>
-
-          </ul>
-        </div>
-        <div class="geo-col hardened">
-          <h3 class="geo-col-title">Serveur MCP Sécurisé TAVARDT (Zero Trust)</h3>
-          <ul class="geo-list">
-            <li><span class="check">✓</span> Confinement dans des conteneurs non-root avec système de fichiers monté en lecture seule.</li>
+</ul>
+</div>
+<div class="geo-col hardened">
+<h3 class="geo-col-title">Serveur MCP Sécurisé TAVARDT (Zero Trust)</h3>
+<ul class="geo-list">
+<li><span class="check">✓</span> Confinement dans des conteneurs non-root avec système de fichiers monté en lecture seule.</li>
 <li><span class="check">✓</span> Contrôle rigoureux des arguments via JSON Schema avec blocage des structures suspectes.</li>
 <li><span class="check">✓</span> Cloisonnement strict limitant les accès disque au seul répertoire de travail désigné.</li>
 <li><span class="check">✓</span> Validation Human-in-the-Loop requise pour toute opération modifiant des données sensibles.</li>
 <li><span class="check">✓</span> Authentification mutuelle mTLS chiffrant l'ensemble des communications du protocole MCP.</li>
-
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="faq-section">
-      <h2 class="faq-title">Foire Aux Questions sur la Sécurité du Protocole MCP</h2>
-      <div class="faq-list">
-        
-        <div class="faq-item">
-          <button class="faq-question" type="button" onclick="toggleFaq(this)">
-            <span>Pourquoi les serveurs MCP constituent-ils une cible de choix ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Parce qu'ils disposent souvent de droits d'exécution de commandes. Une injection de prompt peut transformer l'IA en passerelle d'intrusion.</p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question" type="button" onclick="toggleFaq(this)">
-            <span>Comment le schéma JSON neutralise-t-il les attaques par injection ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>En validant strictement la longueur, le format et les caractères autorisés avant tout envoi de commande au système d'exploitation.</p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question" type="button" onclick="toggleFaq(this)">
-            <span>Qu'apporte l'approche Human-in-the-Loop en environnement MCP ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Elle garantit qu'aucune action risquée ne peut être déclenchée de façon autonome sans approbation préalable par un opérateur humain.</p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question" type="button" onclick="toggleFaq(this)">
-            <span>Quelle est la prestation de TAVARDT pour la sécurisation de serveurs MCP ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Nous réalisons des audits de schémas, configurons des bacs à sable étanches et déployons des passerelles de contrôle d'accès pour les agents IA.</p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="cta-card">
+</ul>
+</div>
+</div>
+</section>
+<section class="faq-section">
+<h2 class="faq-title">Foire Aux Questions sur la Sécurité du Protocole MCP</h2>
+<div class="faq-list"><div class="faq-item"><div class="faq-question">Qu'est-ce que le Model Context Protocol (MCP) ?<span class="faq-toggle">+</span></div><div class="faq-answer">C'est un standard ouvert reliant les modèles d'IA à des outils locaux et bases de données. Les principaux risques concernent les surprivilèges et l'exécution de code.</div></div><div class="faq-item"><div class="faq-question">Comment une injection indirecte compromet-elle un serveur MCP ?<span class="faq-toggle">+</span></div><div class="faq-answer">Un contenu externe lu par un outil peut intégrer des instructions masquées forçant l'agent à exfiltrer des fichiers sensibles.</div></div><div class="faq-item"><div class="faq-question">L'auditeur réalise-t-il des opérations invasives ?<span class="faq-toggle">+</span></div><div class="faq-answer">Non. Il effectue une analyse statique déterministe de vos fichiers mcp.json sans exécuter de commande sur votre machine.</div></div><div class="faq-item"><div class="faq-question">Comment appliquer le moindre privilège aux serveurs MCP ?<span class="faq-toggle">+</span></div><div class="faq-answer">En cantonnant les accès à des répertoires dédiés en lecture seule et en supprimant les outils de terminal généralistes.</div></div><div class="faq-item"><div class="faq-question">Quels modèles d'isolation TAVARDT préconise-t-elle ?<span class="faq-toggle">+</span></div><div class="faq-answer">Nous recommandons des conteneurs isolés, des identifiants éphémères et un filtrage strict du réseau sortant.</div></div></div>
+</section>
+<div class="cta-card">
 <h3>Besoin d'un Durcissement pour vos Déploiements MCP ?</h3>
 <p>L'équipe cybersécurité TAVARDT audite vos architectures MCP, configure des environnements cloisonnés et verrouille les autorisations.</p>
 <div class="cta-btns">
@@ -1769,7 +1711,7 @@ footer > div:first-child {
 <footer class="tavardt-footer">
 <div class="tavardt-footer-inner">
 <div class="tavardt-footer-col">
-<div class="tavardt-footer-logo">TAVARDT<span class="tavardt-brand-dot">.</span></div>
+<div class="tavardt-footer-logo">TAVARDT</div>
 <p class="tavardt-footer-mission">Nous transformons des entreprises invisibles en marques reconnues et sécurisées sur le marché numérique.</p>
 </div>
 <div class="tavardt-footer-col">
