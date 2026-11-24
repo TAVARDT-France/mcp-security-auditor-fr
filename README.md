@@ -73,12 +73,19 @@ jobs:
 
 - **Référentiel Technique** : Directives de Moindre Privilège et Référentiels ANSSI pour l'IA
 
-
 ## Portails TAVARDT
 
 - **Portail Principal** : [Portail Institutionnel](https://ag.tavardt.com/fr/)
 - **Portail d'Outils**: [Centre d'Outils](https://tools.tavardt.com/fr/)
 - **Contact Technique** : [Canal de Contact](https://ag.tavardt.com/fr/contact/)
+
+***
+
+## Liens Utiles
+
+* **Portail Entreprise:** https://ag.tavardt.com/fr/
+* **Suite de Diagnostic:** https://tools.tavardt.com/fr/
+* **Contact Technique:** https://ag.tavardt.com/fr/contact/
 
 ***
 
