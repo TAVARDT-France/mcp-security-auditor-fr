@@ -72,13 +72,13 @@ jobs:
 ## Cadre de Conformité
 
 - **Référentiel Technique** : Directives de Moindre Privilège et Référentiels ANSSI pour l'IA
-- **Organisation Responsable** : [TAVARDT-France](https://github.com/TAVARDT-France)
+
 
 ## Portails TAVARDT
 
-- **Portail Principal** : [Portal Institucional](https://ag.tavardt.com/fr/)
-- **Portail d'Outils**: [Central de Ferramentas](https://tools.tavardt.com/fr/)
-- **Contact Technique** : [Canal de Contato](https://ag.tavardt.com/fr/contact/)
+- **Portail Principal** : [Portail Institutionnel](https://ag.tavardt.com/fr/)
+- **Portail d'Outils**: [Centre d'Outils](https://tools.tavardt.com/fr/)
+- **Contact Technique** : [Canal de Contact](https://ag.tavardt.com/fr/contact/)
 
 ***
 
