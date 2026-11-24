@@ -1635,7 +1635,8 @@ footer > div:first-child {
 <button class="btn-preset" id="btn-dl-hardened">Télécharger mcp-hardened.json</button>
 </div>
 </div>
-<textarea id="hardened-output" style="height: 220px; color: #6ee7b7;"></textarea>
+<textarea id="hardened-output" style="display: none;"></textarea>
+      <pre class="code-block" id="code-box" style="height: 220px; overflow-y: auto; background: #030712; color: #6ee7b7; padding: 1rem; border-radius: 0.5rem; font-family: monospace; font-size: 0.85rem;"><code id="code-content">/* Le JSON durci s'affichera ici */</code></pre>
 </div>
 </div>
 </div>
@@ -2209,6 +2210,8 @@ footer > div:first-child {
 
         const hardened = buildHardenedConfig(res.servers);
         hardenedOutput.value = JSON.stringify(hardened, null, 2);
+        const codeBox = document.getElementById("code-content");
+        if (codeBox) codeBox.textContent = hardenedOutput.value;
         hardenedBox.style.display = "block";
         hardenedBox.scrollIntoView({ behavior: "smooth" });
       });
