@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-5b3cf5.svg)](https://tavardt-france.github.io/mcp-security-auditor-fr/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Auditeur de sécurité pour serveurs et outils MCP (Model Context Protocol). Application web client et outil CLI.
 
@@ -89,7 +89,7 @@ jobs:
 ***
 
 ### Licence
-Distribué sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus d'informations.
+Distribué sous licence MIT.
 
 ***
 
